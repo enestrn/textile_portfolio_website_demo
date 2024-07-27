@@ -1,0 +1,5 @@
+git config --global core.autocrlf true
+git add .gitattributes
+git commit -m "Add .gitattributes file to handle line endings"
+git add --renormalize .
+git commit -m "Normalize line endings"
